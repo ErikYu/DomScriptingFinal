@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+section, header, article, nav{
+	display: block;
+}
+body{
+	margin: 1em 10%;
+	background-image: url(../img/background.gif);
+	background-attachment: fixed;
+	background-position: top left;
+	background-repeat: repeat-x;
+	max-width: 80em;
+}
+header{
+	background-image: url(../img/guitarist.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	border: solid 0.1em;
+	border-bottom-width: 0;
+}
+header nav{
+	background-image: url(../img/navbar.gif);
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	border: solid 0.1em;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	padding-left: 10%;
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	border-left-width: 0.1em;
+	border-left-style: solid;
+}
+header nav li{
+	display: inline;
+}
+header nav li a{
+	display: block;
+	float: left;
+	padding: 0.5em 2em;
+	border-right: solid 0.1em;
+}
+#about header{
+	background-image: url(../img/lineup.gif);
+}
+#photos header{
+	background-image: url(../img/basshead.gif);
+}
+#live header{
+	background-image: url(../img/bassist.gif);
+}
+#contact header{
+	background-image: url(../img/drummer.gif);
+}
+article{
+	border: solid 0.1em;
+	border-top-width: 0;
+	padding: 2em 10%;
+	line-height: 1.8em;
+}
+article img{
+	border: solid 0.1em;
+	outline: solid 0.1em;
+}
+#slideshow{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+#preview{
+	position: absolute;
+}
+
+#imagegallery li{
+	display: inline;
+}
+td{
+	padding: 0.5em 3em;
+}
+dl{
+	overflow: hidden;
+}
+dd{
+	float: left;
+}
+dt{
+	float: left;
+}
+label{
+	display: block;
+}
+fieldset{
+	border: 0;
+}
